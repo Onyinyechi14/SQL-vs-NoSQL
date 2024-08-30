@@ -1,0 +1,62 @@
+SQL VS MongoDB
+Comparing between SQL to MongoDB
+Onyinyechi Julius-Okorie
+
+
+Introduction to SQL Databases
+Title: Introduction to SQL Databases
+Content:
+Definition: SQL databases are relational databases that use structured query language (SQL) for defining and manipulating data.
+Examples: MySQL, PostgreSQL, Oracle Database, SQL Server.
+Structure: Data is stored in tables with predefined schemas.
+Use Cases: Best suited for applications requiring complex queries, multi-row transactions, and structured data.
+
+
+Performance and Scalability
+Title: Performance and Scalability
+Content:
+SQL:
+Vertical Scalability: Typically scaled by increasing the hardware (CPU, RAM) of the existing server.
+Performance: Optimized for complex transactions and multi-table operations.
+Consistency: Strong consistency due to ACID compliance.
+MongoDB:
+Horizontal Scalability: Designed for horizontal scaling by adding more servers (sharding).
+Performance: Excellent for large volumes of unstructured or semi-structured data and real-time applications.
+Flexibility: Easily handles changes in data structures and large-scale, distributed data.
+
+
+Introduction to MongoDB (NoSQL)
+Title: Introduction to MongoDB (NoSQL)
+Content:
+Definition: MongoDB is a NoSQL database that stores data in flexible, JSON-like documents rather than tables.
+Document-Oriented: Each document can have a different structure, allowing for more flexibility.
+Examples: MongoDB, CouchDB, Cassandra (other types of NoSQL databases).
+Use Cases: Ideal for unstructured data, hierarchical data storage, and applications requiring high flexibility and scalability.
+
+
+Data Model and Structure
+Title: Data Model and Structure Comparison
+Content:
+SQL:
+Schema-Based: Requires a predefined schema where tables are created with specific columns and data types.
+ACID Compliance: Supports transactions ensuring atomicity, consistency, isolation, and durability.
+Relationships: Enforces strict relationships using foreign keys.
+MongoDB:
+Schema-Less: No need for a predefined schema; documents can vary in structure.
+Eventual Consistency: Prioritizes availability and partition tolerance (CAP theorem).
+Embedded Documents: Relationships can be embedded within a single document or referenced between documents.
+
+
+Query Language and Operations
+Title: Query Language and Operations
+Content:
+SQL:
+Query Language: Uses SQL (Structured Query Language) for querying and manipulating data.
+Complex Queries: Supports complex joins, aggregations, and nested queries.
+Standardization: SQL is standardized across different relational databases, though slight variations exist.
+MongoDB:
+Query Language: Uses a JSON-like query language, allowing for powerful and flexible queries.
+Aggregation Framework: Supports complex data aggregation operations.
+Sharding: Built-in support for horizontal scaling (sharding).
+
+
